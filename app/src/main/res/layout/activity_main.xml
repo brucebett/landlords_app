@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@drawable/w"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/main_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/main"
+        />
+    <ImageView
+        android:id="@+id/edtDashboard"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/baseline_menu_open_24"
+        android:layout_marginStart="335dp"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NOTE:"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="530dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:text="We aslo facilitate transport system for our CLIENTS
+to ensure safety arrival there Property"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="550dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="310dp"
+        android:layout_marginTop="65dp"
+        android:text="DASHBOARD"
+        android:textColor="@color/paleyelow"
+        />
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:textSize="37sp"
+        android:textStyle="bold"
+        android:textColor="@color/green"
+        android:layout_marginTop="180dp"
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="are you..." />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="270dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="45sp"
+        android:id="@+id/medtlandlord"
+        android:text="A LANDLORD"/>
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:textSize="37dp"
+        android:textStyle="bold"
+        android:textColor="@color/green"
+        android:layout_marginTop="330dp"
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="or" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/medttenant"
+        android:layout_marginTop="420dp"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:text="A TENANT" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="283dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="110dp"
+        android:layout_marginTop="60dp"
+        android:text="Welcome"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="311dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        app:srcCompat="@drawable/iccover" />
+</RelativeLayout>
