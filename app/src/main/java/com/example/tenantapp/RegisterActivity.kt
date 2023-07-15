@@ -34,6 +34,10 @@ class RegisterActivity : AppCompatActivity() {
         progress.setTitle("Loading")
         progress.setMessage("Please wait ...")
 
+        Edttxtlogin.setOnClickListener {
+            startActivity(Intent( this, LoginActivity::class.java))
+        }
+
         Btncreate.setOnClickListener {
             var email = Edtemail.text.toString().trim()
             var password = Edtenterpassword.text.toString().trim()

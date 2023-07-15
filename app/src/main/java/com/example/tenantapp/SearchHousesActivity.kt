@@ -11,7 +11,7 @@ import java.util.Locale
 
 class SearchHousesActivity : AppCompatActivity() {
     private lateinit var recyclerView: RecyclerView
-    private lateinit var searchView: SearchView
+    private lateinit var searchView: androidx.appcompat.widget.SearchView
     private val mList = ArrayList<Houses>()
     private lateinit var adapter: HouseAdapter
     lateinit var houses : Array<String>
@@ -29,7 +29,7 @@ class SearchHousesActivity : AppCompatActivity() {
         adapter = HouseAdapter(mList)
         recyclerView.adapter = adapter
 
-        searchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener{
+        searchView.setOnQueryTextListener(object : androidx.appcompat.widget.SearchView.OnQueryTextListener{
             override fun onQueryTextSubmit(query : String?): Boolean {
                 return false
             }

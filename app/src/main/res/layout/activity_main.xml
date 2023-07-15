@@ -16,7 +16,6 @@
         android:background="@drawable/main"
         />
     <ImageView
-        android:id="@+id/edtDashboard"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:src="@drawable/baseline_menu_open_24"
@@ -44,10 +43,13 @@ to ensure safety arrival there Property"
         android:layout_marginTop="550dp"/>
 
     <TextView
+        android:id="@+id/edtdashboard"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="310dp"
         android:layout_marginTop="65dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
         android:text="DASHBOARD"
         android:textColor="@color/paleyelow"
         />
@@ -104,6 +106,7 @@ to ensure safety arrival there Property"
         android:layout_marginTop="60dp"
         android:text="Welcome"
         android:textSize="60sp"
+        android:textColor="@color/white"
         android:textStyle="bold" />
 
     <ImageView

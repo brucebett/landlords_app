@@ -28,7 +28,7 @@
         android:ems="10"
         android:inputType="textEmailAddress"
         android:minHeight="48dp"
-        android:text="Enter Email"
+        android:hint="Enter Email"
         tools:ignore="DuplicateClickableBoundsCheck"
         tools:layout_editor_absoluteX="100dp"
         tools:layout_editor_absoluteY="149dp" />

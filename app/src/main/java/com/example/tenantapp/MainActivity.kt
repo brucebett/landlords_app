@@ -4,25 +4,26 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageView
 import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
-    lateinit var EdtLandlord: Button
-    lateinit var EdtTenant: Button
+    lateinit var edtLandlord: Button
+    lateinit var edtTenant: Button
     lateinit var edtDashboard:TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        EdtLandlord = findViewById(R.id.medtlandlord)
-        EdtTenant = findViewById(R.id.medttenant)
-        edtDashboard = findViewById(R.id.edtDashboard)
+        edtLandlord = findViewById(R.id.medtlandlord)
+        edtTenant = findViewById(R.id.medttenant)
+        edtDashboard = findViewById(R.id.edtdashboard)
 
-        EdtLandlord.setOnClickListener{
+        edtLandlord.setOnClickListener{
             startActivity(Intent(this,LoginActivity::class.java))
         }
-        EdtTenant.setOnClickListener {
+        edtTenant.setOnClickListener {
             startActivity(Intent(this,SearchHousesActivity::class.java))
         }
         edtDashboard.setOnClickListener {
